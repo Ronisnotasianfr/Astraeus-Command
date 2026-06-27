@@ -16,6 +16,10 @@ dist-ssr
 .nitro
 *.local
 
+# Generated lockfiles / auto-generated files
+package-lock.json
+src/routeTree.gen.ts
+
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars
